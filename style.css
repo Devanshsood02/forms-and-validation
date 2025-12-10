@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body form.form {
+  width: 15rem;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2rem;
+}
+body form.form #text {
+  max-width: 100%;
+}
+body input,
+body textarea {
+  padding: 10px; /* placeholder also moves */
+}/*# sourceMappingURL=style.css.map */
