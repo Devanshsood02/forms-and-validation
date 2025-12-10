@@ -1,16 +1,16 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html,
 body {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
-body{
+body {
     background-color: black;
     display: flex;
     align-items: center;
@@ -18,7 +18,14 @@ body{
 
 
 
-    form.form{
+    form.form {
+
+        small {
+            display: none;
+            color: red;
+            font-size: 0.7rem;
+        }
+
         width: 15rem;
         border: 2px solid white;
         display: flex;
@@ -27,14 +34,15 @@ body{
         gap: 2rem;
 
 
-        #text{
-max-width: 100%;
+        #text {
+            max-width: 100%;
         }
     }
 
     input,
-textarea {
-  padding: 10px;   /* placeholder also moves */
-}
+    textarea {
+        padding: 10px;
+        /* placeholder also moves */
+    }
 
 }

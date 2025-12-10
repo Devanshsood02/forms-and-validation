@@ -24,10 +24,16 @@ body form.form {
   padding: 1rem;
   gap: 2rem;
 }
+body form.form small {
+  display: none;
+  color: red;
+  font-size: 0.7rem;
+}
 body form.form #text {
   max-width: 100%;
 }
 body input,
 body textarea {
-  padding: 10px; /* placeholder also moves */
+  padding: 10px;
+  /* placeholder also moves */
 }/*# sourceMappingURL=style.css.map */
